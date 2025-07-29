@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_835933764c8a2bac028d215fef27cf25 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_835933764c8a2bac028d215fef27cf25" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_835933764c8a2bac028d215fef27cf25 = L.map(
+                "map_835933764c8a2bac028d215fef27cf25",
+                {
+                    center: [-21.1, 55.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47c9633b1ac1c3a9a4ad9d0060fc6738 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var marker_c39e37a63b6a4eb57e93f36c42d5d965 = L.marker(
+                [-21.3419, 55.4781],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_8cd2203b96add177db4da31fed1ab208 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e1\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_c39e37a63b6a4eb57e93f36c42d5d965.setIcon(div_icon_8cd2203b96add177db4da31fed1ab208);
+        
+    
+        var popup_08956306f750f0bcd9ba4a5986a2fd34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e322a5d892b0b83021334d134dc0d84b = $(`<div id="html_e322a5d892b0b83021334d134dc0d84b" style="width: 100.0%; height: 100.0%;"><b>Jour 1-2 - Saint-Pierre</b><br>Arrivée, plage, marché</div>`)[0];
+            popup_08956306f750f0bcd9ba4a5986a2fd34.setContent(html_e322a5d892b0b83021334d134dc0d84b);
+        
+
+        marker_c39e37a63b6a4eb57e93f36c42d5d965.bindPopup(popup_08956306f750f0bcd9ba4a5986a2fd34)
+        ;
+
+        
+    
+    
+            marker_c39e37a63b6a4eb57e93f36c42d5d965.bindTooltip(
+                `<div>
+                     Jour 1-2 - Saint-Pierre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20991493de8c2cecf3ab23deb3a70d8b = L.marker(
+                [-21.4281, 55.7058],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_4bfeb60c32b1840d1b9077cc93ec1830 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e2\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_20991493de8c2cecf3ab23deb3a70d8b.setIcon(div_icon_4bfeb60c32b1840d1b9077cc93ec1830);
+        
+    
+        var popup_5578fe3c862ab92617179d42fa75199a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d0705b208cdc5a990d0cc6c837f2397 = $(`<div id="html_6d0705b208cdc5a990d0cc6c837f2397" style="width: 100.0%; height: 100.0%;"><b>Jour 3 - Cap Méchant</b><br>Route sauvage du sud</div>`)[0];
+            popup_5578fe3c862ab92617179d42fa75199a.setContent(html_6d0705b208cdc5a990d0cc6c837f2397);
+        
+
+        marker_20991493de8c2cecf3ab23deb3a70d8b.bindPopup(popup_5578fe3c862ab92617179d42fa75199a)
+        ;
+
+        
+    
+    
+            marker_20991493de8c2cecf3ab23deb3a70d8b.bindTooltip(
+                `<div>
+                     Jour 3 - Cap Méchant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f5b97ef5647e0ba7685bb0d11dcec74 = L.marker(
+                [-21.3727, 55.5885],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_90dfba40a90a7aa8e793b3d237419b00 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e3\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_1f5b97ef5647e0ba7685bb0d11dcec74.setIcon(div_icon_90dfba40a90a7aa8e793b3d237419b00);
+        
+    
+        var popup_e140fef0d220a1d403515970933639f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c22da424cd85ac856e4b4de109fd3ad = $(`<div id="html_5c22da424cd85ac856e4b4de109fd3ad" style="width: 100.0%; height: 100.0%;"><b>Jour 3 - Grand Anse</b><br>Plage + bassin naturel</div>`)[0];
+            popup_e140fef0d220a1d403515970933639f6.setContent(html_5c22da424cd85ac856e4b4de109fd3ad);
+        
+
+        marker_1f5b97ef5647e0ba7685bb0d11dcec74.bindPopup(popup_e140fef0d220a1d403515970933639f6)
+        ;
+
+        
+    
+    
+            marker_1f5b97ef5647e0ba7685bb0d11dcec74.bindTooltip(
+                `<div>
+                     Jour 3 - Grand Anse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8671b4651634031dbc18a096dbe3b417 = L.marker(
+                [-21.2447, 55.7089],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_7bf4842cd1737bbfdc26380228a7d3c1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e4\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_8671b4651634031dbc18a096dbe3b417.setIcon(div_icon_7bf4842cd1737bbfdc26380228a7d3c1);
+        
+    
+        var popup_c1d8a5f4ad1888ba1f6bd7b24e81f79e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5dde514b2d646e4f3c56dc9cb2bf689 = $(`<div id="html_c5dde514b2d646e4f3c56dc9cb2bf689" style="width: 100.0%; height: 100.0%;"><b>Jour 4 - Piton de la Fournaise</b><br>Volcan – rando Formica Léo</div>`)[0];
+            popup_c1d8a5f4ad1888ba1f6bd7b24e81f79e.setContent(html_c5dde514b2d646e4f3c56dc9cb2bf689);
+        
+
+        marker_8671b4651634031dbc18a096dbe3b417.bindPopup(popup_c1d8a5f4ad1888ba1f6bd7b24e81f79e)
+        ;
+
+        
+    
+    
+            marker_8671b4651634031dbc18a096dbe3b417.bindTooltip(
+                `<div>
+                     Jour 4 - Piton de la Fournaise
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_609afdab35a94ccaf1a91ec75a57b58c = L.marker(
+                [-21.1356, 55.4719],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_5ac6160d3a85e06ad44372c0ee323523 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e5\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_609afdab35a94ccaf1a91ec75a57b58c.setIcon(div_icon_5ac6160d3a85e06ad44372c0ee323523);
+        
+    
+        var popup_d0e757d5de30a3c72ba319aa91cb6c18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_832bbc17d32fb1f558a989ed984210e7 = $(`<div id="html_832bbc17d32fb1f558a989ed984210e7" style="width: 100.0%; height: 100.0%;"><b>Jour 5-6 - Cilaos</b><br>Cirque, thermes, randos</div>`)[0];
+            popup_d0e757d5de30a3c72ba319aa91cb6c18.setContent(html_832bbc17d32fb1f558a989ed984210e7);
+        
+
+        marker_609afdab35a94ccaf1a91ec75a57b58c.bindPopup(popup_d0e757d5de30a3c72ba319aa91cb6c18)
+        ;
+
+        
+    
+    
+            marker_609afdab35a94ccaf1a91ec75a57b58c.bindTooltip(
+                `<div>
+                     Jour 5-6 - Cilaos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62ee262e49b4e997bd5f481cd549d2d5 = L.marker(
+                [-21.0035, 55.5195],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_32e1f4d13378cf1427fb766394aaffe4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e6\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_62ee262e49b4e997bd5f481cd549d2d5.setIcon(div_icon_32e1f4d13378cf1427fb766394aaffe4);
+        
+    
+        var popup_17426ec57e45a67ffbea0f76de051bde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21868bdc4d1b55c650a3633d4fa40790 = $(`<div id="html_21868bdc4d1b55c650a3633d4fa40790" style="width: 100.0%; height: 100.0%;"><b>Jour 8 - Hell-Bourg</b><br>Village créole classé</div>`)[0];
+            popup_17426ec57e45a67ffbea0f76de051bde.setContent(html_21868bdc4d1b55c650a3633d4fa40790);
+        
+
+        marker_62ee262e49b4e997bd5f481cd549d2d5.bindPopup(popup_17426ec57e45a67ffbea0f76de051bde)
+        ;
+
+        
+    
+    
+            marker_62ee262e49b4e997bd5f481cd549d2d5.bindTooltip(
+                `<div>
+                     Jour 8 - Hell-Bourg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a58661395a58fac7e0e0603f891a3dc4 = L.marker(
+                [-21.0455, 55.4488],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_2f58d637e8a9100d398e9b2879374192 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e7\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_a58661395a58fac7e0e0603f891a3dc4.setIcon(div_icon_2f58d637e8a9100d398e9b2879374192);
+        
+    
+        var popup_3bc0746babba62b80ad46bb7993faf79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a60c614a952487488f25306e5ac612c = $(`<div id="html_0a60c614a952487488f25306e5ac612c" style="width: 100.0%; height: 100.0%;"><b>Jour 9-10 - Col des Bœufs</b><br>Accès à Mafate à pied</div>`)[0];
+            popup_3bc0746babba62b80ad46bb7993faf79.setContent(html_0a60c614a952487488f25306e5ac612c);
+        
+
+        marker_a58661395a58fac7e0e0603f891a3dc4.bindPopup(popup_3bc0746babba62b80ad46bb7993faf79)
+        ;
+
+        
+    
+    
+            marker_a58661395a58fac7e0e0603f891a3dc4.bindTooltip(
+                `<div>
+                     Jour 9-10 - Col des Bœufs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f24df1777a1136377f62545b517856b5 = L.marker(
+                [-21.0663, 55.4383],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_759e98e0cea6982afa85ad80e3918434 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e8\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_f24df1777a1136377f62545b517856b5.setIcon(div_icon_759e98e0cea6982afa85ad80e3918434);
+        
+    
+        var popup_f8f8284fd526e3a2b0ae40d4835abb13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de91c204a37dd2f4e96a23eb3cd7b921 = $(`<div id="html_de91c204a37dd2f4e96a23eb3cd7b921" style="width: 100.0%; height: 100.0%;"><b>Jour 9-10 - La Nouvelle</b><br>Gîte dans Mafate</div>`)[0];
+            popup_f8f8284fd526e3a2b0ae40d4835abb13.setContent(html_de91c204a37dd2f4e96a23eb3cd7b921);
+        
+
+        marker_f24df1777a1136377f62545b517856b5.bindPopup(popup_f8f8284fd526e3a2b0ae40d4835abb13)
+        ;
+
+        
+    
+    
+            marker_f24df1777a1136377f62545b517856b5.bindTooltip(
+                `<div>
+                     Jour 9-10 - La Nouvelle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_983ae2f7aac22973d6ddf9267f26e3db = L.marker(
+                [-21.0362, 55.5219],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_27c621a0d5ea3a60905ecd591ed839fb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e9\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_983ae2f7aac22973d6ddf9267f26e3db.setIcon(div_icon_27c621a0d5ea3a60905ecd591ed839fb);
+        
+    
+        var popup_f8c6910315495733aa3d5c11b4f8ad3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fae05323230f13cd5c1c7cb7b0caeda4 = $(`<div id="html_fae05323230f13cd5c1c7cb7b0caeda4" style="width: 100.0%; height: 100.0%;"><b>Jour 13 - Trou de Fer (Bélouve)</b><br>Forêt tropicale et cascades</div>`)[0];
+            popup_f8c6910315495733aa3d5c11b4f8ad3a.setContent(html_fae05323230f13cd5c1c7cb7b0caeda4);
+        
+
+        marker_983ae2f7aac22973d6ddf9267f26e3db.bindPopup(popup_f8c6910315495733aa3d5c11b4f8ad3a)
+        ;
+
+        
+    
+    
+            marker_983ae2f7aac22973d6ddf9267f26e3db.bindTooltip(
+                `<div>
+                     Jour 13 - Trou de Fer (Bélouve)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b22a2c4be48822c013596adf94f05b00 = L.marker(
+                [-21.0605, 55.2212],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_79cd04fc3abc37f6a8aad5ec68f3cff7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e10\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_b22a2c4be48822c013596adf94f05b00.setIcon(div_icon_79cd04fc3abc37f6a8aad5ec68f3cff7);
+        
+    
+        var popup_fa6e50a41f7d41c4b6cade371ba10978 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38756819e74faf17fc85331d886c4de0 = $(`<div id="html_38756819e74faf17fc85331d886c4de0" style="width: 100.0%; height: 100.0%;"><b>Jour 14-21 - Saint-Gilles-les-Bains</b><br>Base pour plages et lagon</div>`)[0];
+            popup_fa6e50a41f7d41c4b6cade371ba10978.setContent(html_38756819e74faf17fc85331d886c4de0);
+        
+
+        marker_b22a2c4be48822c013596adf94f05b00.bindPopup(popup_fa6e50a41f7d41c4b6cade371ba10978)
+        ;
+
+        
+    
+    
+            marker_b22a2c4be48822c013596adf94f05b00.bindTooltip(
+                `<div>
+                     Jour 14-21 - Saint-Gilles-les-Bains
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a441139b15b1857c5aa1e02c9d6dfe49 = L.marker(
+                [-21.0846, 55.2442],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_c6e89f42307584f519af9930552fc45a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e11\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_a441139b15b1857c5aa1e02c9d6dfe49.setIcon(div_icon_c6e89f42307584f519af9930552fc45a);
+        
+    
+        var popup_5730b0936514155b8786c825d0f8ece4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0de97ef4de3d5784fcc04b4240e58b9c = $(`<div id="html_0de97ef4de3d5784fcc04b4240e58b9c" style="width: 100.0%; height: 100.0%;"><b>Jour 14-21 - La Saline-les-Bains</b><br>Plage et snorkeling</div>`)[0];
+            popup_5730b0936514155b8786c825d0f8ece4.setContent(html_0de97ef4de3d5784fcc04b4240e58b9c);
+        
+
+        marker_a441139b15b1857c5aa1e02c9d6dfe49.bindPopup(popup_5730b0936514155b8786c825d0f8ece4)
+        ;
+
+        
+    
+    
+            marker_a441139b15b1857c5aa1e02c9d6dfe49.bindTooltip(
+                `<div>
+                     Jour 14-21 - La Saline-les-Bains
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d945d50a15c2c438e72cf895f42be10f = L.marker(
+                [-20.9842, 55.2909],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_76a41214e43554fff5aed383ab3f5fa6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e12\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_d945d50a15c2c438e72cf895f42be10f.setIcon(div_icon_76a41214e43554fff5aed383ab3f5fa6);
+        
+    
+        var popup_0dcee4ac8d57c8487ca77ca762427099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e2a1b06a442fed35535316baa2084d7 = $(`<div id="html_1e2a1b06a442fed35535316baa2084d7" style="width: 100.0%; height: 100.0%;"><b>Jour 17 - Saint-Paul</b><br>Marché du vendredi matin</div>`)[0];
+            popup_0dcee4ac8d57c8487ca77ca762427099.setContent(html_1e2a1b06a442fed35535316baa2084d7);
+        
+
+        marker_d945d50a15c2c438e72cf895f42be10f.bindPopup(popup_0dcee4ac8d57c8487ca77ca762427099)
+        ;
+
+        
+    
+    
+            marker_d945d50a15c2c438e72cf895f42be10f.bindTooltip(
+                `<div>
+                     Jour 17 - Saint-Paul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_239a7f62fee03453b229f0bc0f7097fd = L.marker(
+                [-21.0706, 55.3707],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_d404e22fc0c0d43a1e26f99dc87e7a16 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e13\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_239a7f62fee03453b229f0bc0f7097fd.setIcon(div_icon_d404e22fc0c0d43a1e26f99dc87e7a16);
+        
+    
+        var popup_aa838e6bc08a052f1408aed92f9805f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_970140b04aee6c480465e3eecc9c13e7 = $(`<div id="html_970140b04aee6c480465e3eecc9c13e7" style="width: 100.0%; height: 100.0%;"><b>Jour 19 - Maïdo</b><br>Point de vue sur Mafate</div>`)[0];
+            popup_aa838e6bc08a052f1408aed92f9805f1.setContent(html_970140b04aee6c480465e3eecc9c13e7);
+        
+
+        marker_239a7f62fee03453b229f0bc0f7097fd.bindPopup(popup_aa838e6bc08a052f1408aed92f9805f1)
+        ;
+
+        
+    
+    
+            marker_239a7f62fee03453b229f0bc0f7097fd.bindTooltip(
+                `<div>
+                     Jour 19 - Maïdo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fff41ac83892983ad2a87a0037aed264 = L.marker(
+                [-21.0721, 55.2375],
+                {}
+            ).addTo(map_835933764c8a2bac028d215fef27cf25);
+        
+    
+            var div_icon_18777f228a7b7c7b120298508896945b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14pt; color: red;\"\u003e\u003cb\u003e14\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_fff41ac83892983ad2a87a0037aed264.setIcon(div_icon_18777f228a7b7c7b120298508896945b);
+        
+    
+        var popup_a5fc9366e8f72b0a38ab7220c83f41f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537a9642d554c3a54176e36032e16b09 = $(`<div id="html_537a9642d554c3a54176e36032e16b09" style="width: 100.0%; height: 100.0%;"><b>Jour 20 - Jardin d’Éden</b><br>Jardin botanique tropical</div>`)[0];
+            popup_a5fc9366e8f72b0a38ab7220c83f41f1.setContent(html_537a9642d554c3a54176e36032e16b09);
+        
+
+        marker_fff41ac83892983ad2a87a0037aed264.bindPopup(popup_a5fc9366e8f72b0a38ab7220c83f41f1)
+        ;
+
+        
+    
+    
+            marker_fff41ac83892983ad2a87a0037aed264.bindTooltip(
+                `<div>
+                     Jour 20 - Jardin d’Éden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
