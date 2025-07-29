@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_536f4e4903e12205ac9a697d6b08d6c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_536f4e4903e12205ac9a697d6b08d6c9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_536f4e4903e12205ac9a697d6b08d6c9 = L.map(
+                "map_536f4e4903e12205ac9a697d6b08d6c9",
+                {
+                    center: [-21.1, 55.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9a480440d9ff4b91237c09f25005445b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_536f4e4903e12205ac9a697d6b08d6c9);
+        
+    
+            var marker_cluster_98710e5cf0b3186ffa61d5707dba1baf = L.markerClusterGroup(
+                {}
+            );
+            map_536f4e4903e12205ac9a697d6b08d6c9.addLayer(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+            var marker_f3719a22958b86ec2fe5d13fb4016077 = L.marker(
+                [-21.3419, 55.4781],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_f89ac7615612f4b8fc4e2f8712fd6bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66f7cc78b123e6365575326df3462fd6 = $(`<div id="html_66f7cc78b123e6365575326df3462fd6" style="width: 100.0%; height: 100.0%;"><b>Saint-Pierre</b><br>Base pour explorer le sud de l'île</div>`)[0];
+            popup_f89ac7615612f4b8fc4e2f8712fd6bb0.setContent(html_66f7cc78b123e6365575326df3462fd6);
+        
+
+        marker_f3719a22958b86ec2fe5d13fb4016077.bindPopup(popup_f89ac7615612f4b8fc4e2f8712fd6bb0)
+        ;
+
+        
+    
+    
+            marker_f3719a22958b86ec2fe5d13fb4016077.bindTooltip(
+                `<div>
+                     Saint-Pierre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d831dd5a36df5d21d192a6b9761548ef = L.marker(
+                [-21.3727, 55.5885],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_6d484b4c8872fd6bdf256ecae23a2808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4c93fe36ccafcad1b0f6adcd22f1cb5 = $(`<div id="html_c4c93fe36ccafcad1b0f6adcd22f1cb5" style="width: 100.0%; height: 100.0%;"><b>Grand Anse</b><br>Plage sauvage avec piscine naturelle</div>`)[0];
+            popup_6d484b4c8872fd6bdf256ecae23a2808.setContent(html_c4c93fe36ccafcad1b0f6adcd22f1cb5);
+        
+
+        marker_d831dd5a36df5d21d192a6b9761548ef.bindPopup(popup_6d484b4c8872fd6bdf256ecae23a2808)
+        ;
+
+        
+    
+    
+            marker_d831dd5a36df5d21d192a6b9761548ef.bindTooltip(
+                `<div>
+                     Grand Anse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ddaf90bbb1753fb3921355de6f78aa = L.marker(
+                [-21.4281, 55.7058],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_53cff28d483229bff74da5a7d7c92d4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30934f365438e92416cdf15382e44a7d = $(`<div id="html_30934f365438e92416cdf15382e44a7d" style="width: 100.0%; height: 100.0%;"><b>Cap Méchant</b><br>Côte déchiquetée spectaculaire</div>`)[0];
+            popup_53cff28d483229bff74da5a7d7c92d4e.setContent(html_30934f365438e92416cdf15382e44a7d);
+        
+
+        marker_c4ddaf90bbb1753fb3921355de6f78aa.bindPopup(popup_53cff28d483229bff74da5a7d7c92d4e)
+        ;
+
+        
+    
+    
+            marker_c4ddaf90bbb1753fb3921355de6f78aa.bindTooltip(
+                `<div>
+                     Cap Méchant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_300943bb25268c3084547e8a64e49ee9 = L.marker(
+                [-21.2447, 55.7089],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_7c7759999849147583ae01995ff0645b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aecff1676786e4efb614646ed3aa7bc3 = $(`<div id="html_aecff1676786e4efb614646ed3aa7bc3" style="width: 100.0%; height: 100.0%;"><b>Piton de la Fournaise</b><br>Volcan actif à explorer à pied</div>`)[0];
+            popup_7c7759999849147583ae01995ff0645b.setContent(html_aecff1676786e4efb614646ed3aa7bc3);
+        
+
+        marker_300943bb25268c3084547e8a64e49ee9.bindPopup(popup_7c7759999849147583ae01995ff0645b)
+        ;
+
+        
+    
+    
+            marker_300943bb25268c3084547e8a64e49ee9.bindTooltip(
+                `<div>
+                     Piton de la Fournaise
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b4c69bad230e76b5cc37182c312c389 = L.marker(
+                [-21.1356, 55.4719],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_de17addcdf9b5400b87a874f2c2eca94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20eeb96c66dd259d04a5ef224d5c99fa = $(`<div id="html_20eeb96c66dd259d04a5ef224d5c99fa" style="width: 100.0%; height: 100.0%;"><b>Cilaos</b><br>Cirque montagneux avec thermes et rando</div>`)[0];
+            popup_de17addcdf9b5400b87a874f2c2eca94.setContent(html_20eeb96c66dd259d04a5ef224d5c99fa);
+        
+
+        marker_7b4c69bad230e76b5cc37182c312c389.bindPopup(popup_de17addcdf9b5400b87a874f2c2eca94)
+        ;
+
+        
+    
+    
+            marker_7b4c69bad230e76b5cc37182c312c389.bindTooltip(
+                `<div>
+                     Cilaos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e87153e118eadf3100b3b6d67bf4def = L.marker(
+                [-21.0035, 55.5195],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_276ba5174744a200f38658cfacefe923 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45d6206820f573c33fd10f1dc93ea2f0 = $(`<div id="html_45d6206820f573c33fd10f1dc93ea2f0" style="width: 100.0%; height: 100.0%;"><b>Hell-Bourg</b><br>Village créole classé dans Salazie</div>`)[0];
+            popup_276ba5174744a200f38658cfacefe923.setContent(html_45d6206820f573c33fd10f1dc93ea2f0);
+        
+
+        marker_5e87153e118eadf3100b3b6d67bf4def.bindPopup(popup_276ba5174744a200f38658cfacefe923)
+        ;
+
+        
+    
+    
+            marker_5e87153e118eadf3100b3b6d67bf4def.bindTooltip(
+                `<div>
+                     Hell-Bourg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdb3e2ffb12efa15bb5e5227f778f71b = L.marker(
+                [-21.0455, 55.4488],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_c3a9312d766d65684311de58c37647ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_978c344ab4f4c6b336ab4cd74819dda6 = $(`<div id="html_978c344ab4f4c6b336ab4cd74819dda6" style="width: 100.0%; height: 100.0%;"><b>Col des Bœufs (Mafate)</b><br>Point d'accès au cirque de Mafate</div>`)[0];
+            popup_c3a9312d766d65684311de58c37647ed.setContent(html_978c344ab4f4c6b336ab4cd74819dda6);
+        
+
+        marker_fdb3e2ffb12efa15bb5e5227f778f71b.bindPopup(popup_c3a9312d766d65684311de58c37647ed)
+        ;
+
+        
+    
+    
+            marker_fdb3e2ffb12efa15bb5e5227f778f71b.bindTooltip(
+                `<div>
+                     Col des Bœufs (Mafate)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8baf6ee3a013ff0ca556a45410633a5e = L.marker(
+                [-21.0663, 55.4383],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_0659d0be5727261bb57d126985ecf7a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57d342076737a4ac832dd68e0c58b10e = $(`<div id="html_57d342076737a4ac832dd68e0c58b10e" style="width: 100.0%; height: 100.0%;"><b>La Nouvelle</b><br>Hameau isolé dans Mafate</div>`)[0];
+            popup_0659d0be5727261bb57d126985ecf7a3.setContent(html_57d342076737a4ac832dd68e0c58b10e);
+        
+
+        marker_8baf6ee3a013ff0ca556a45410633a5e.bindPopup(popup_0659d0be5727261bb57d126985ecf7a3)
+        ;
+
+        
+    
+    
+            marker_8baf6ee3a013ff0ca556a45410633a5e.bindTooltip(
+                `<div>
+                     La Nouvelle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fc2bd4817516b28863a69748378aeff = L.marker(
+                [-21.0706, 55.3707],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_5f395bf93259df39f17e73f142fa8d82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7838513696cef7c92bcc2ac91ff5607 = $(`<div id="html_d7838513696cef7c92bcc2ac91ff5607" style="width: 100.0%; height: 100.0%;"><b>Maïdo</b><br>Point de vue sublime sur Mafate</div>`)[0];
+            popup_5f395bf93259df39f17e73f142fa8d82.setContent(html_d7838513696cef7c92bcc2ac91ff5607);
+        
+
+        marker_0fc2bd4817516b28863a69748378aeff.bindPopup(popup_5f395bf93259df39f17e73f142fa8d82)
+        ;
+
+        
+    
+    
+            marker_0fc2bd4817516b28863a69748378aeff.bindTooltip(
+                `<div>
+                     Maïdo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_997008511a234f2899369765aa92322b = L.marker(
+                [-21.0605, 55.2212],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_18e94cbffcd255a79e38d40c8e6a15b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf5feca59ce179d4f4747cb282013519 = $(`<div id="html_bf5feca59ce179d4f4747cb282013519" style="width: 100.0%; height: 100.0%;"><b>Saint-Gilles-les-Bains</b><br>Station balnéaire idéale pour le repos</div>`)[0];
+            popup_18e94cbffcd255a79e38d40c8e6a15b4.setContent(html_bf5feca59ce179d4f4747cb282013519);
+        
+
+        marker_997008511a234f2899369765aa92322b.bindPopup(popup_18e94cbffcd255a79e38d40c8e6a15b4)
+        ;
+
+        
+    
+    
+            marker_997008511a234f2899369765aa92322b.bindTooltip(
+                `<div>
+                     Saint-Gilles-les-Bains
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fbd5b88e52c65a2ddeb779157c08c0c = L.marker(
+                [-21.0846, 55.2442],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_0499bf24e662ae9e05d3d47315ce3b51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dd1d63c9bc82e4085df99c5c5cf231c = $(`<div id="html_4dd1d63c9bc82e4085df99c5c5cf231c" style="width: 100.0%; height: 100.0%;"><b>La Saline-les-Bains</b><br>Plage tranquille au bord du lagon</div>`)[0];
+            popup_0499bf24e662ae9e05d3d47315ce3b51.setContent(html_4dd1d63c9bc82e4085df99c5c5cf231c);
+        
+
+        marker_2fbd5b88e52c65a2ddeb779157c08c0c.bindPopup(popup_0499bf24e662ae9e05d3d47315ce3b51)
+        ;
+
+        
+    
+    
+            marker_2fbd5b88e52c65a2ddeb779157c08c0c.bindTooltip(
+                `<div>
+                     La Saline-les-Bains
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e006472dcd1ecba6730d824b09fdf13 = L.marker(
+                [-20.9842, 55.2909],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_e1e92c73eea1f50257d285e84c239744 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c7de755eaeffc155946a8c49a578ca8 = $(`<div id="html_5c7de755eaeffc155946a8c49a578ca8" style="width: 100.0%; height: 100.0%;"><b>Saint-Paul</b><br>Marché typique et centre culturel</div>`)[0];
+            popup_e1e92c73eea1f50257d285e84c239744.setContent(html_5c7de755eaeffc155946a8c49a578ca8);
+        
+
+        marker_0e006472dcd1ecba6730d824b09fdf13.bindPopup(popup_e1e92c73eea1f50257d285e84c239744)
+        ;
+
+        
+    
+    
+            marker_0e006472dcd1ecba6730d824b09fdf13.bindTooltip(
+                `<div>
+                     Saint-Paul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4892c7f8b00a6180c6cae9e841d8a4db = L.marker(
+                [-21.0721, 55.2375],
+                {}
+            ).addTo(marker_cluster_98710e5cf0b3186ffa61d5707dba1baf);
+        
+    
+        var popup_527602cb0c8458dc6a870ee860d793a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af3b42d1292c721ab6eb915a82cf49e1 = $(`<div id="html_af3b42d1292c721ab6eb915a82cf49e1" style="width: 100.0%; height: 100.0%;"><b>Jardin d’Éden</b><br>Jardin botanique tropical</div>`)[0];
+            popup_527602cb0c8458dc6a870ee860d793a0.setContent(html_af3b42d1292c721ab6eb915a82cf49e1);
+        
+
+        marker_4892c7f8b00a6180c6cae9e841d8a4db.bindPopup(popup_527602cb0c8458dc6a870ee860d793a0)
+        ;
+
+        
+    
+    
+            marker_4892c7f8b00a6180c6cae9e841d8a4db.bindTooltip(
+                `<div>
+                     Jardin d’Éden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
